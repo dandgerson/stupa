@@ -33,10 +33,9 @@ gulp.task('browser-sync', function(){
 
 gulp.task('scripts', function() {
 	return gulp.src([
-		'app/bower/jquery/dist/jquery.min.js',
-		'app/bower/bootstrap/dist/js/bootstrap.min.js',
-		'app/bower/magnific-popup/dist/jquery.jquery.magnific-popup.min.js',
-		'app/bower/bower/owl.carousel/dist/owl.carousel.min.js'
+		'app/bower/jquery/dist/jquery.js',
+		'app/bower/tether/dist/js/tether.js',
+		'app/bower/bootstrap/dist/js/bootstrap.js',
 	])
 	.pipe(concat('libs.min.js'))
 	.pipe(uglify())
@@ -95,9 +94,9 @@ gulp.task('build',['clean', 'img', 'sass','scripts'], function() {
 gulp.task('deploy', function() {
 
 	var conn = ftp.create({
-		host:      'ftp.dandgerson.com',
-		user:      'dandgerson.com',
-		password:  'e!Cb9Gt2j',
+		host:      'f9056303.beget.tech',
+		user:      'f9056303_dandgerson',
+		password:  'ToadyOne88',
 		parallel:  10,
 		log: gutil.log
 	});
@@ -106,8 +105,8 @@ gulp.task('deploy', function() {
 	'dist/**'
 	];
 	return gulp.src( globs, {base: 'dist/', buffer: false } )
-		.pipe( conn.newer( 'public_html/' ) )
-		.pipe( conn.dest( 'public_html/' ) ); 
+		.pipe( conn.newer( './' ) )
+		.pipe( conn.dest( './' ) ); 
 });
 
 gulp.task('clear', function () {

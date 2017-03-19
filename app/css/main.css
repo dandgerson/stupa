@@ -156,27 +156,6 @@ nav i.fa {
   color: #ccc;
 }
 
-#stupaStore {
-  color: white;
-  margin-bottom: 1rem;
-}
-
-#stupaStore img {
-  width: 4rem;
-}
-
-#stupaStore a {
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #A0A0A0;
-}
-
-#stupaStore a:hover {
-  color: #ccc;
-}
-
 .btn {
   display: inline-block;
   font-weight: bold;
@@ -231,6 +210,10 @@ nav i.fa {
   color: #D3212F;
 }
 
+#social {
+  margin-bottom: 2rem;
+}
+
 #social a {
   font-size: 2rem;
   color: #D3212F;
@@ -242,4 +225,25 @@ nav i.fa {
   margin-left: 1rem;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+#stupaStore {
+  margin-bottom: 2rem;
+}
+
+#stupaStore img {
+  width: 4rem;
+}
+
+#stupaStore a {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 3rem;
+}
+
+#stupaStore a:hover {
+  color: #ccc;
 }
