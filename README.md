@@ -1,2 +1,2 @@
-## This is my study Startup Landing Page with bootstrap 4
+## This is my social project for memory K.Stupin
 ![alt text](/scrn.png)
