@@ -1,0 +1,21 @@
+{
+  "name": "BradHussey-Bootstrap4-Course",
+  "authors": [
+    "dandgerson <dandgerson@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6",
+    "jquery-ui": "jquery.ui#^1.12.1"
+  }
+}
