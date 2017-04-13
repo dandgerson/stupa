@@ -96,7 +96,7 @@ gulp.task('deploy', function() {
 	var conn = ftp.create({
 		host:      'f9056303.beget.tech',
 		user:      'f9056303_dandgerson',
-		password:  'ToadyOne88',
+		password:  'password',
 		parallel:  10,
 		log: gutil.log
 	});

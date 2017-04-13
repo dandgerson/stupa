@@ -1,0 +1,168 @@
+// // 1 - Load project variables.
+// // 2 - Load bootstrap sass files.
+// // 3 - Load custom app sass files.
+
+// // --------------------------------------------------------
+// //  Import in the default bootstrap variables.
+// //  Then override bootstrap default with project specific values.
+// // --------------------------------------------------------
+
+@import "../bower/bootstrap/scss/variables"; 
+@import "variables";
+ 
+// // --------------------------------------------------------
+// // Import required bootstrap sass files needed for this project.
+// // Uncomment any bootstrap functionality required for this project.
+// // The idea is to keep this as small as possible.
+// // --------------------------------------------------------*/
+
+// /* --------------------------------------------------------
+//    Core mixins
+//    -------------------------------------------------------- */
+
+@import "../bower/bootstrap/scss/mixins";
+
+// separately
+
+// @mixin box-shadow($shadow...) {
+//   @if $enable-shadows {
+//     box-shadow: $shadow;
+//   }
+// }
+
+// @mixin transition($transition...) {
+//   @if $enable-transitions {
+//     @if length($transition) == 0 {
+//       transition: $transition-base;
+//     } @else {
+//       transition: $transition;
+//     }
+//   }
+// }
+
+// Utilities
+// @import "../bower/bootstrap/scss/mixins/breakpoints";
+// @import "../bower/bootstrap/scss/mixins/hover";
+// @import "../bower/bootstrap/scss/mixins/image";
+// @import "../bower/bootstrap/scss/mixins/badge";
+// @import "../bower/bootstrap/scss/mixins/resize";
+// @import "../bower/bootstrap/scss/mixins/screen-reader";
+// @import "../bower/bootstrap/scss/mixins/size";
+// @import "../bower/bootstrap/scss/mixins/reset-text";
+// @import "../bower/bootstrap/scss/mixins/text-emphasis";
+// @import "../bower/bootstrap/scss/mixins/text-hide";
+// @import "../bower/bootstrap/scss/mixins/text-truncate";
+// @import "../bower/bootstrap/scss/mixins/transforms";
+// @import "../bower/bootstrap/scss/mixins/visibility";
+
+// // Components
+// @import "../bower/bootstrap/scss/mixins/alert";
+// @import "../bower/bootstrap/scss/mixins/buttons";
+// @import "../bower/bootstrap/scss/mixins/cards";
+// @import "../bower/bootstrap/scss/mixins/pagination";
+// @import "../bower/bootstrap/scss/mixins/lists";
+// @import "../bower/bootstrap/scss/mixins/list-group";
+// @import "../bower/bootstrap/scss/mixins/nav-divider";
+// @import "../bower/bootstrap/scss/mixins/forms";
+// @import "../bower/bootstrap/scss/mixins/table-row";
+
+// // Skins
+// @import "../bower/bootstrap/scss/mixins/background-variant";
+// @import "../bower/bootstrap/scss/mixins/border-radius";
+// @import "../bower/bootstrap/scss/mixins/gradients";
+
+// // Layout
+// @import "../bower/bootstrap/scss/mixins/clearfix";
+// @import "../bower/bootstrap/scss/mixins/navbar-align";
+// @import "../bower/bootstrap/scss/mixins/grid-framework";
+// @import "../bower/bootstrap/scss/mixins/grid";
+// @import "../bower/bootstrap/scss/mixins/float";
+
+
+// /* --------------------------------------------------------
+//    Reset and dependencies
+//    -------------------------------------------------------- */
+
+@import "../bower/bootstrap/scss/normalize";
+@import "../bower/bootstrap/scss/print";
+
+
+
+// /* --------------------------------------------------------
+//    Core CSS
+//    -------------------------------------------------------- */
+
+// @import "../bower/bootstrap/scss/reboot";
+// @import "../bower/bootstrap/scss/type";
+// @import "../bower/bootstrap/scss/images";
+// @import "../bower/bootstrap/scss/code";
+// @import "../bower/bootstrap/scss/grid";
+// @import "../bower/bootstrap/scss/tables";
+// @import "../bower/bootstrap/scss/forms";
+// @import "../bower/bootstrap/scss/buttons";
+
+
+
+// /* --------------------------------------------------------
+//    Components
+//    -------------------------------------------------------- */
+
+// @import "../bower/bootstrap/scss/dropdown";
+// @import "../bower/bootstrap/scss/button-group";
+// @import "../bower/bootstrap/scss/input-group";
+// @import "../bower/bootstrap/scss/custom-forms";
+// @import "../bower/bootstrap/scss/nav";
+// @import "../bower/bootstrap/scss/navbar";
+// @import "../bower/bootstrap/scss/card";
+// @import "../bower/bootstrap/scss/breadcrumb";
+// @import "../bower/bootstrap/scss/pagination";
+// @import "../bower/bootstrap/scss/jumbotron";
+// @import "../bower/bootstrap/scss/alert";
+// @import "../bower/bootstrap/scss/progress";
+// @import "../bower/bootstrap/scss/media";
+// @import "../bower/bootstrap/scss/list-group";
+// @import "../bower/bootstrap/scss/responsive-embed";
+// @import "../bower/bootstrap/scss/close";
+
+
+
+// /* --------------------------------------------------------
+//    Components w/ JavaScript
+//    -------------------------------------------------------- */
+
+// @import "../bower/bootstrap/scss/modal";
+// @import "../bower/bootstrap/scss/tooltip";
+// @import "../bower/bootstrap/scss/popover";
+// @import "../bower/bootstrap/scss/carousel";
+// @import "../bower/bootstrap/scss/carousel";
+
+
+
+// /* --------------------------------------------------------
+//    Utility classes
+//    -------------------------------------------------------- */
+
+// @import "../bower/bootstrap/scss/utilities";
+
+// separately
+
+// @import "../bower/bootstrap/scss/utilities/align";
+// @import "../bower/bootstrap/scss/utilities/background";
+// @import "../bower/bootstrap/scss/utilities/borders";
+// @import "../bower/bootstrap/scss/utilities/clearfix";
+// @import "../bower/bootstrap/scss/utilities/display";
+// @import "../bower/bootstrap/scss/utilities/flex";
+// @import "../bower/bootstrap/scss/utilities/float";
+// @import "../bower/bootstrap/scss/utilities/position";
+// @import "../bower/bootstrap/scss/utilities/screenreaders";
+// @import "../bower/bootstrap/scss/utilities/sizing";
+// @import "../bower/bootstrap/scss/utilities/spacing";
+// @import "../bower/bootstrap/scss/utilities/text";
+// @import "../bower/bootstrap/scss/utilities/visibility";
+
+
+// /* --------------------------------------------------------
+//    Custom application specific styles
+//    -------------------------------------------------------- */
+
+@import "custom";
