@@ -1,1 +1,72 @@
+/* BASE BEGIN */
 // add your custom styles here
+
+.blockquote {
+	font-size: 1.6rem;
+	color: #333;
+	border: none;
+	padding: 0;
+}
+.blockquote-footer {
+	margin: 1rem 0 0;
+}
+.navbar-brand img {
+	height: 2rem;
+}
+
+.btn {
+	display: inline-block;
+	font-weight: bold;
+	line-height: 1.25;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 2px solid transparent;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	border-radius: 0.25rem;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.btn-outline-secondary {
+	color: #D3212F;
+	background-image: none;
+	background-color: transparent;
+	border-color: #D3212F;
+}
+
+.btn-outline-secondary:hover {
+	color: #fff;
+	background-color: #D3212F;
+	border-color: #D3212F;
+}
+
+.btn-outline-secondary:focus, .btn-outline-secondary.focus {
+	-webkit-box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
+	box-shadow: 0 0 0 2px rgba(204, 204, 204, 0.5);
+}
+
+
+
+.btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
+	color: #D3212F;
+	background-color: transparent;
+}
+
+.btn-outline-secondary:active, .btn-outline-secondary.active,
+.show > .btn-outline-secondary.dropdown-toggle {
+	color: #fff;
+	background-color: #D3212F;
+	border-color: #D3212F;
+}
+
+.nav-link .active {
+	color: #D3212F;
+}
+/* BASE END */

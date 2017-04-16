@@ -1,3 +1,5 @@
+// sendmail
+
 $(document).ready(function(){
 	$("#form").submit(function(e) { 
 	e.preventDefault();
@@ -15,3 +17,7 @@ $(document).ready(function(){
 		});
 	});
 }); 
+
+// scrollspy
+
+$('body').scrollspy({ target: '#navbarHome' });
