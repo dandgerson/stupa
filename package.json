@@ -1,13 +1,21 @@
 {
-  "name": "stupamemory",
+  "name": "stupa",
   "version": "1.0.0",
-  "description": "for memory K.Stupin",
-  "main": "index.js",
+  "description": "![alt text](/scrn.png)",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dandgerson/stupa.git"
+  },
   "author": "dandgerson",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dandgerson/stupa/issues"
+  },
+  "homepage": "https://github.com/dandgerson/stupa#readme",
   "devDependencies": {
     "browser-sync": "^2.18.7",
     "del": "^2.2.2",
@@ -22,7 +30,6 @@
     "gulp-uglifyjs": "^0.6.2",
     "gulp-util": "^3.0.8",
     "imagemin-pngquant": "^5.0.0",
-    "node-bourbon": "^4.2.8",
     "vinyl-ftp": "^0.6.0"
   }
 }

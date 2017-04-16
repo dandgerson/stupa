@@ -16,7 +16,7 @@
 
 gulp.task('sass', function(){
 	return gulp.src(['app/sass/**/*.sass', 'app/sass/**/*.scss'])
-	.pipe(sass({outputStyle: 'expanded',includePaths: require('node-bourbon').includePaths}).on('error', sass.logError))
+	.pipe(sass().on('error', sass.logError))
 	.pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {cascade: true }))
 	.pipe(gulp.dest('app/css'))
 	.pipe(browserSync.reload({stream: true}))
@@ -96,7 +96,7 @@ gulp.task('deploy', function() {
 	var conn = ftp.create({
 		host:      'f9056303.beget.tech',
 		user:      'f9056303_dandgerson',
-		password:  'password',
+		password:  'ToadyOne88',
 		parallel:  10,
 		log: gutil.log
 	});

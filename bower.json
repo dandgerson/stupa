@@ -1,21 +1,21 @@
 {
-  "name": "BradHussey-Bootstrap4-Course",
+  "name": "stupa",
+  "description": "![alt text](/scrn.png)",
+  "main": "gulpfile.js",
   "authors": [
-    "dandgerson <dandgerson@gmail.com>"
+    "dandgerson"
   ],
-  "description": "",
-  "main": "",
-  "license": "MIT",
-  "homepage": "",
+  "license": "ISC",
+  "homepage": "https://github.com/dandgerson/stupa",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
+    "app/bower",
     "test",
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "v4.0.0-alpha.6",
-    "jquery-ui": "jquery.ui#^1.12.1"
+    "bootstrap": "v4.0.0-alpha.6"
   }
 }

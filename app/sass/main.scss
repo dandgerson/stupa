@@ -1,3 +1,5 @@
+@import "settings";
+
 // add your custom styles here
 // to learn more about SASS, visit sass-lang.com
 
@@ -223,3 +225,6 @@ nav i.fa{
 #stupaStore a:hover {
 color: #ccc;
 }
+
+
+@import "media";
