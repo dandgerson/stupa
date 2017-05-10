@@ -1,3 +1,6 @@
+/* --------------------------------------------------------
+	Bootstrap
+	-------------------------------------------------------- */
 .tether-element, .tether-element:after, .tether-element:before, .tether-element *, .tether-element *:after, .tether-element *:before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }

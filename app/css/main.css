@@ -1,4 +1,6 @@
-/* SETTINGS BEGIN */
+/* --------------------------------------------------------
+	Settings
+	-------------------------------------------------------- */
 html,
 body {
   height: 100%; }
@@ -19,24 +21,33 @@ h6 {
   font-size: 0.8rem;
   letter-spacing: 0.1rem; }
 
+ul {
+  margin: 0;
+  padding: 0; }
+
 img {
   max-width: 100%; }
 
 iframe {
   margin: .8rem 0; }
 
-/* SETTINGS END */
-/* FONTS BEGIN */
+/* --------------------------------------------------------
+	Fonts
+	-------------------------------------------------------- */
 /* Font Familys
 font-family: 'Lobster', cursive;
 font-family: 'Gloria Hallelujah', cursive;
 font-family: 'Pacifico', cursive;
 */
-/* FONTS END */
-/* MAIN BEGIN */
+/* --------------------------------------------------------
+	Main
+	-------------------------------------------------------- */
 nav i.fa {
   color: #D3212F;
   font-size: 2rem; }
+
+#nav-social a {
+  display: inline-block; }
 
 #stage {
   background: url("../img/bg3.jpg") center center no-repeat;
@@ -109,52 +120,59 @@ nav i.fa {
 #main-footer {
   background-color: #000;
   color: white;
-  padding: 6rem 0;
   font-size: 0.8rem; }
-
-#main-footer h6 {
-  color: #D3212F; }
-
-#main-footer a {
-  color: #A0A0A0;
-  text-decoration: none; }
-
-#main-footer a:hover {
-  color: #ccc; }
+  #main-footer ul {
+    list-style: none; }
+  #main-footer h6 {
+    color: #D3212F; }
+  #main-footer a {
+    color: #A0A0A0;
+    text-decoration: none; }
+    #main-footer a:hover {
+      color: #ccc; }
 
 #social {
-  margin-bottom: 2rem; }
+  margin: 1.5rem 0 1.5rem 0;
+  text-align: right; }
+  #social li {
+    display: inline-block; }
+  #social a {
+    font-size: 1.7rem;
+    margin-left: 0.3rem;
+    color: #D3212F; }
 
-#social a {
-  font-size: 2rem;
-  color: #D3212F; }
-
-#oficialSite a {
-  font-weight: bold;
-  font-size: 1rem;
-  margin-left: 1rem;
-  text-transform: uppercase;
-  text-decoration: none; }
+#oficialSite {
+  margin: 1.5rem 0 1.5rem 0; }
+  #oficialSite a {
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #D3212F; }
 
 #stupaStore {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  text-align: center; }
 
 #stupaStore img {
-  width: 4rem; }
+  width: 6rem; }
 
 #stupaStore a {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
   color: white;
-  margin-left: 3rem; }
+  display: block; }
+  #stupaStore a:hover {
+    color: #ccc; }
 
-#stupaStore a:hover {
-  color: #ccc; }
+.copyright {
+  margin-bottom: 1rem; }
 
-/* MAIN END */
-/* MEDIA BEGIN */
+/* --------------------------------------------------------
+	Media
+	-------------------------------------------------------- */
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
@@ -167,4 +185,3 @@ nav i.fa {
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
 /* Large Devices, Wide Screens */
-/* MEDIA END */
