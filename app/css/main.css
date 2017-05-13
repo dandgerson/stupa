@@ -42,12 +42,36 @@ font-family: 'Pacifico', cursive;
 /* --------------------------------------------------------
 	Main
 	-------------------------------------------------------- */
+.flex-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
 nav i.fa {
   color: #D3212F;
-  font-size: 2rem; }
+  font-size: 1.7rem; }
+  nav i.fa:hover {
+    color: #ccc; }
 
-#nav-social a {
-  display: inline-block; }
+#social-nav {
+  list-style-type: none;
+  display: inherit;
+  width: 30%; }
+  #social-nav li {
+    float: left;
+    margin-right: 0.6rem; }
+    #social-nav li a:hover {
+      color: #ccc; }
 
 #stage {
   background: url("../img/bg3.jpg") center center no-repeat;

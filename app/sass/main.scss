@@ -12,14 +12,36 @@
 // add your custom styles here
 // to learn more about SASS, visit sass-lang.com
 
-nav i.fa{
-	color: #D3212F;
-	font-size: 2rem;
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	.flex-item {
+
+	}
 }
 
-#nav-social {
-	a {
-		display: inline-block;
+nav i.fa {
+	color: #D3212F;
+	font-size: 1.7rem;
+	&:hover {
+		color: #ccc;
+	}
+}
+
+#social-nav {
+	list-style-type: none;
+	display: inherit;
+	width: 30%;
+	li {
+		float: left;
+		margin-right: 0.6rem;
+		a {
+			
+			&:hover {
+				color: #ccc;
+			}
+		}
 	}
 }
 
