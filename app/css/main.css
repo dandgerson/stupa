@@ -1,4 +1,7 @@
 /* --------------------------------------------------------
+	Fonts
+	-------------------------------------------------------- */
+/* --------------------------------------------------------
 	Settings
 	-------------------------------------------------------- */
 html,
@@ -32,14 +35,6 @@ iframe {
   margin: .8rem 0; }
 
 /* --------------------------------------------------------
-	Fonts
-	-------------------------------------------------------- */
-/* Font Familys
-font-family: 'Lobster', cursive;
-font-family: 'Gloria Hallelujah', cursive;
-font-family: 'Pacifico', cursive;
-*/
-/* --------------------------------------------------------
 	Main
 	-------------------------------------------------------- */
 .flex-container {
@@ -72,6 +67,38 @@ nav i.fa {
     margin-right: 0.6rem; }
     #social-nav li a:hover {
       color: #ccc; }
+
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 15px;
+  /* Place the button at the bottom of the page */
+  right: 25px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: rgba(211, 33, 47, 0.4);
+  /* Set a background color */
+  font-size: 1.3rem;
+  color: black;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 10px;
+  /* Some padding */
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  /* Rounded corners */ }
+
+#myBtn:hover {
+  background-color: #d3212f;
+  /* Add a dark-grey background on hover */ }
 
 #stage {
   background: url("../img/bg3.jpg") center center no-repeat;
@@ -116,16 +143,8 @@ nav i.fa {
   text-transform: uppercase; }
 
 .feature-content {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   padding: 4rem 0;
-  overflow: hidden;
-  -webkit-box-align: top;
-  -webkit-align-items: top;
-      -ms-flex-align: top;
-          align-items: top; }
+  overflow: hidden; }
 
 .feature-dark {
   background: #333;
@@ -198,14 +217,26 @@ nav i.fa {
 	Media
 	-------------------------------------------------------- */
 /*==========  Desktop First Method  ==========*/
-/* Large Devices, Wide Screens */
-/* Medium Devices, Desktops */
-/* Small Devices, Tablets */
+/* Extra Large Devices, Wide Screens */
+/* Large Devices, Desktops */
+/* Medium Devices, Tablets */
+/* Small Devices, Phones */
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  .h1, h1 {
+    font-size: 2rem; }
+  .display-4 {
+    font-size: 1.5rem; }
+  #feature-one h1 {
+    margin-top: 1rem; }
+  .feature-content {
+    padding: 1rem 0; } }
+
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
-/* Medium Devices, Desktops */
-/* Large Devices, Wide Screens */
+/* Medium Devices, Tablets */
+/* Large Devices, Desktops */
+/* Extra Large Devices, Wide Screens */

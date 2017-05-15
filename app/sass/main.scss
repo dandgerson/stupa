@@ -1,11 +1,13 @@
 /* --------------------------------------------------------
-	Settings
-	-------------------------------------------------------- */
-@import "settings";
-/* --------------------------------------------------------
 	Fonts
 	-------------------------------------------------------- */
 @import "fonts";
+
+/* --------------------------------------------------------
+	Settings
+	-------------------------------------------------------- */
+@import "settings";
+
 /* --------------------------------------------------------
 	Main
 	-------------------------------------------------------- */
@@ -43,6 +45,26 @@ nav i.fa {
 			}
 		}
 	}
+}
+
+#myBtn {
+		display: none; /* Hidden by default */
+		position: fixed; /* Fixed/sticky position */
+		bottom: 15px; /* Place the button at the bottom of the page */
+		right: 25px; /* Place the button 30px from the right */
+		z-index: 99; /* Make sure it does not overlap */
+		border: none; /* Remove borders */
+		outline: none; /* Remove outline */
+		background-color: rgba(211,33,47, 0.4); /* Set a background color */
+		font-size: 1.3rem;
+		color: black; /* Text color */
+		cursor: pointer; /* Add a mouse pointer on hover */
+		padding: 10px; /* Some padding */
+		border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+		background-color: rgba(211,33,47, 1); /* Add a dark-grey background on hover */
 }
 
 #stage {
@@ -88,10 +110,8 @@ nav i.fa {
 }
 
 .feature-content {
-	display: flex;
 	padding: 4rem 0;
 	overflow: hidden;
-	align-items: top;
 	
 }
 .feature-dark {
