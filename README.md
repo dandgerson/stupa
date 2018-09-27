@@ -31,7 +31,7 @@ To run this project you should have the same **_workflow_** *(look bellow in **W
    1. `npm i`
    2. `npx bower i`
    3. `npx gulp build`
-3. open in browser *`.dist/index.html`*
+3. open in browser *`./dist/index.html`*
 
 ### common gulp commands (look into 'gulpfile.js'):
 
