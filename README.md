@@ -1,4 +1,4 @@
-# Social page for memory K.Stupin
+# Social page by memory K.Stupin
 
 ![alt text](/scrn.png)
 
