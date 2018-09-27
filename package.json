@@ -31,5 +31,8 @@
     "gulp-util": "^3.0.8",
     "imagemin-pngquant": "^5.0.0",
     "vinyl-ftp": "^0.6.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.9.3"
   }
 }
