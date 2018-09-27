@@ -71,4 +71,4 @@ This small education project aims to show basic practical usage of:
 
 ## Showcase
 
-[http://dandgerson.com/projects/fpr76.ru/](http://dandgerson.com/projects/stupa/)
+[http://dandgerson.com/projects/stupa/](http://dandgerson.com/projects/stupa/)
